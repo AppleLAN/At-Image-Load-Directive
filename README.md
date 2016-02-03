@@ -5,7 +5,7 @@ Hi guys, this is a little directive that you can apply at you img tag to throw a
 Implementation :
 
 HTML
-<img img-load="onImgLoad($event)" src="{{img}}" alt="{{title}}" />
+<!-- <img img-load="onImgLoad($event)" src="{{img}}" alt="{{title}}" /> -->
 
 JS
 
