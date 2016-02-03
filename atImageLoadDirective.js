@@ -18,11 +18,12 @@ mainApp.directive('imgLoad', ['$parse', function ($parse) {
 Implementation :
 
 HTML
-<img img-load="onImgLoad($event)" class="img-loading" data-lazy="{{product.img}}" alt="{{product.title}}" />
+<img img-load="onImgLoad($event)" src="{{img}}" alt="{{title}}" />
 
 JS
 
 $scope.onImgLoad = function (event) {
 	$scope.loaded = true;
     // ...
-}*/
+}
+*/
