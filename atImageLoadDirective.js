@@ -23,7 +23,6 @@ HTML
 JS
 
 $scope.onImgLoad = function (event) {
-	$scope.loaded = true;
-    // ...
+    // ... everything you want
 }
 */
